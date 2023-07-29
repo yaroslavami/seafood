@@ -86,7 +86,7 @@ h3{
     text-transform: uppercase;
 }
 .galery{
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px 10px 2px;
 }
 .fresh{
     margin:70px 4px 70px 4px;
@@ -114,6 +114,7 @@ h3{
 }
 footer{
     background-color: #151515;
+    margin: 0%;
 }
 .brand-name{
     padding: 0;
@@ -132,101 +133,25 @@ a{
     flex-direction: column;
     margin: 10px 4px 50px 15px;
 }
-
-
-@media screen and (min-width:  540px){ 
-    a{
-        margin: 2px;
-    }
-    h1{
-        margin-left: 10px;
-    }
-    .explanation{
-        font-size: 10px;
-        margin-right: 100px;
-        margin-left: 10px;
-    }
-    .main-info{
-        height: 383px;
-    }  
+.shp{
+    margin: 10px 0px 20px 10px;
 }
-@media screen and (min-width: 768px) {
-    a {
-        margin: 4px;
-    }
-
-    h1 {
-        font-size: 42px;
-        margin-left: 20px;
-    }
-
-    .explanation {
-        font-size: 13px;
-        margin-right: 150px;
-        margin-left: 20px;
-    }
-
-    .main-info {
-        height: 453px;
-    }
+.footer-text{
+    color: #7C7C7C;
+    margin: 4px 0px 20px 10px;
+    height: 50px;
 }
-@media screen and (min-width: 992px) {
-    a {
-        margin: 6px;
-    }
-
-    h1 {
-        font-size: 45px;
-        margin-left: 30px;
-    }
-
-    .explanation {
-        font-size: 16px;
-        margin-right: 200px;
-        margin-left: 30px;
-    }
-
-    .main-info {
-        height: 523px;
-    }
+.bg-image{
+    background-image: url(../images/footer.webp);
+    background-size: cover;
+    background-position: center;
+    width: 87%;
+    height: 87px;
+    margin: 20px 8% 50px 7%;
 }
-@media screen and (min-width: 1200px) {
-    a {
-        margin: 8px;
-    }
+@media screen and (min-width:  540px){}
+@media screen and (min-width: 768px) {}
+@media screen and (min-width: 992px) {}
+@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1700px) {}
 
-    h1 {
-        font-size: 48px;
-        margin-left: 30px;
-    }
-
-    .explanation {
-        font-size: 19px;
-        margin-right: 250px;
-        margin-left: 40px;
-    }
-
-    .main-info {
-        height: 593px;
-    }
-}
-@media screen and (min-width: 1700px) {
-    a {
-        margin: 10px;
-    }
-
-    h1 {
-        font-size: 51px;
-        margin-left: 45px;
-    }
-
-    .explanation {
-        font-size: 22px;
-        margin-right: 450px;
-        margin-left: 45px;
-    }
-
-    .main-info {
-        height: 653px;
-    }
-}
