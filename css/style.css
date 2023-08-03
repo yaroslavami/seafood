@@ -8,6 +8,7 @@ body{
 }
 header{
     background-color: black;
+    position: fixed;
 }
 .navbar-brand{
     color: white !important;
