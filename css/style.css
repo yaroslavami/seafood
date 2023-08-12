@@ -61,18 +61,18 @@ img{
     margin: 0%;
 }
 .galery1 , .menu {
-    width: 390px;
+    width: 100%;
     background-position: cover;
     padding: 0;
 }
 .galery2, .galery3 {
-    width: 190px;
+    width: 48.77%;
     margin-top: 14px;
     margin-bottom: 21px;
     padding: 0;
 }
 .galery3{
-    margin-left: 10px;
+    margin-left: 1.77%;
 }
 .delicacies{
     justify-content: flex-end;
@@ -86,7 +86,7 @@ h3{
     text-transform: uppercase;
 }
 .galery{
-    margin: 10px 0px 10px 2px;
+    margin: 4% 0px 4% 2px;
 }
 .fresh{
     margin:70px 4px 70px 4px;
@@ -130,7 +130,7 @@ a{
 }
 .info{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 10px 4px 50px 15px;
 }
 .shp{
@@ -147,11 +147,284 @@ a{
     background-position: center;
     width: 87%;
     height: 87px;
-    margin: 20px 8% 50px 7%;
+    margin: 20px 10% 50px 7%;
 }
-@media screen and (min-width:  540px){}
-@media screen and (min-width: 768px) {}
-@media screen and (min-width: 992px) {}
-@media screen and (min-width: 1200px) {}
-@media screen and (min-width: 1700px) {}
+@media screen and (min-width:  540px){
+    .hero {
+            padding: 51px 29px 165px;
+            height: 323px;
+        }
+    
+        h1 {
+            font-size: 43px;
+        }
+
+        .hero-text {
+            font-size: 14px;
+        }
+
+        h2 {
+            margin: 5px 10px 40px 10px;
+            font-size: 32.5px;
+        }
+    
+        p {
+            margin: 5px 10px 40px 10px;
+            font-size: 17px;
+        }
+
+        h3 {
+            margin: 5px 10px 40px 10px;
+            font-size: 27.5px;
+        }
+
+        .fresh {
+            margin: 80px 9px 80px 9px;
+        }
+    
+        .menu-heading {
+            margin: 30px 2px 23px 19px;
+            font-size: 30px;
+        }
+    
+        .menu-text {
+            margin: 2px 2px 35px 19px;
+        }
+    
+        .venue {
+            margin: 60px 8px 100px 24px;
+        }
+    
+        .product {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+    
+        .visit {
+            margin-bottom: 100px;
+        }
+    
+        .brand-name {
+            margin: 58px 5px 40px 42px;
+            font-size: 22px;
+        }
+    
+        .info {
+            margin: 20px 9px 60px 25px;
+        }
+    
+        .shp {
+            margin: 20px 0px 30px 20px;
+        }
+    
+        .footer-text {
+            margin: 9px 0px 30px 20px;
+            height: 60px;
+        }
+    
+        .bg-image {
+            height: 97px;
+        }
+}
+@media screen and (min-width: 768px) {
+        .hero {
+                padding: 51px 29px 165px;
+                height: 323px;
+            }
+        
+            h1 {
+                font-size: 43px;
+            }
+        
+            .hero-text {
+                font-size: 14px;
+            }
+        
+            h2 {
+                margin: 5px 10px 40px 10px;
+                font-size: 32.5px;
+            }
+        
+            p {
+                margin: 5px 10px 40px 10px;
+                font-size: 17px;
+            }
+        
+            h3 {
+                margin: 5px 10px 40px 10px;
+                font-size: 27.5px;
+            }
+        
+            .fresh {
+                margin: 80px 9px 80px 9px;
+            }
+        
+            .menu-heading {
+                margin: 30px 2px 23px 19px;
+                font-size: 30px;
+            }
+        
+            .menu-text {
+                margin: 2px 2px 35px 19px;
+            }
+        
+            .venue {
+                margin: 60px 8px 100px 24px;
+            }
+        
+            .product {
+                font-size: 30px;
+                margin-bottom: 20px;
+            }
+        
+            .visit {
+                margin-bottom: 100px;
+            }
+        
+            .brand-name {
+                margin: 58px 5px 40px 42px;
+                font-size: 22px;
+            }
+        
+            .info {
+                margin: 20px 9px 60px 25px;
+            }
+        
+            .shp {
+                margin: 20px 0px 30px 20px;
+            }
+        
+            .footer-text {
+                margin: 9px 0px 30px 20px;
+                height: 60px;
+            }
+        
+            .bg-image {
+                height: 97px;
+            }
+}
+@media screen and (min-width: 992px) {
+        .hero {
+            padding: 71px 49px 185px;
+            height: 403px;
+        }
+    
+        h1 {
+            font-size: 47px;
+        }
+
+        .hero-text {
+            font-size: 18px;
+        }
+
+        h2 {
+            margin: 10px 20px 50px 20px;
+            font-size: 36.5px;
+        }
+    
+        p {
+            margin: 10px 20px 50px 20px;
+            font-size: 21px;
+        }
+
+        h3 {
+            margin: 10px 20px 50px 20px;
+            font-size: 31.5px;
+        }
+
+        .fresh {
+            margin: 90px 19px 90px 19px;
+        }
+    
+        .menu-heading {
+            margin: 40px 7px 33px 29px;
+            font-size: 34px;
+        }
+    
+        .menu-text {
+            margin: 7px 7px 45px 29px;
+        }
+    
+        .venue {
+            margin: 70px 18px 110px 34px;
+        }
+    
+        .product {
+            font-size: 34px;
+            margin-bottom: 30px;
+        }
+    
+        .visit {
+            margin-bottom: 110px;
+        }
+    
+        .brand-name {
+            margin: 68px 10px 50px 52px;
+            font-size: 26px;
+        }
+    
+        .info {
+            margin: 30px 19px 70px 35px;
+        }
+    
+        .shp {
+            margin: 30px 0px 40px 20px;
+        }
+    
+        .footer-text {
+            margin: 19px 0px 40px 30px;
+            height: 70px;
+        }
+    
+        .bg-image {
+            height: 107px;
+        }
+}
+@media screen and (min-width: 1200px) {
+    .hero {
+            height: 603px;
+        }
+    .soups-sea{
+        font-size: 98px;
+    }
+    .menu-heading{
+        font-size: 78px;
+    }
+    .history-heading{
+        margin: 7% 45% 0 19%;
+    }
+    .history-text{
+        margin: -9% 5% 3% 55%;
+    }
+    .galery1{
+        width: 50%;
+    }
+    .galery2, .galery3{
+        height: 60%;
+        width: 25%;
+    }
+    .galery2{
+        margin-top: 5%;
+    }
+    .galery3{
+        margin: -30% 0 0 75% 
+    }
+    .galery-wrap{
+        display: flexbox;
+        flex-wrap: wrap;
+    }
+    .galery{
+        width: 30%;
+    }
+    .map{
+        width: 70%;
+        margin-left: 15%;
+        height: 700px;
+    }
+
+}
+@media screen and (min-width: 1550px) {
+    .hero {
+        height: 803px;
+    }}
 
